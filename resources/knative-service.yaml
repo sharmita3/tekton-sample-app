@@ -6,7 +6,7 @@ spec:
   template:
     spec:
       containers:
-        # Replace with your docker registry info*
+        # Replace with your docker registry info**
         - image: registry.digitalocean.com/sdas/2048-game:latest
           ports:
             - containerPort: 80
